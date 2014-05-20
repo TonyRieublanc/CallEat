@@ -1,0 +1,12 @@
+host = localhost	
+name = db477496277
+user = root
+pass = 
+type = mysql
+port = 5432
+
+host = db477496277.db.1and1.com
+name = db477496277
+user = dbo477496277
+pass = call&fuck
+type = mysql

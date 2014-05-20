@@ -1,0 +1,260 @@
+body {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:12px;
+	padding:0;
+	background-color: #323B55;
+}
+#main_container {
+    margin: 0px auto;
+    width: 900px;
+    padding: 0px;
+}
+
+.header {
+    width: 900px;
+    height: 100px;
+}
+
+.right_header {
+    width: 350px;
+    float: right;
+    text-align: right;
+    color: #FFF;
+    padding: 40px 0px 0px;
+}
+
+.right_header a {
+    margin: 0px 5px;
+    text-decoration: underline;
+    color: #FFF;
+}
+
+.right_header a.logout {
+    background: url('../img/user_logout.png') no-repeat scroll right center transparent;
+    padding-right: 20px;
+}
+
+
+
+#wrap
+{
+	margin: 0 auto;
+	position: relative;
+	width:60%;
+	height: 600px;
+}
+
+
+
+#menu
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+
+#menuGauche
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	
+}
+
+#content
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 80%;
+	margin-top:15px
+}
+
+#footer
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+
+#menu ul
+{
+    padding: 0px;
+    margin-left: 15%;
+    width: 100%;
+    list-style: none;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#menu ul li
+{
+	display: inline;
+
+}
+
+#menu ul li a
+{
+    padding: 2px 10px;
+    float:left;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover
+{
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+	
+}
+#menuGauche ul
+{
+    padding: 0px;    
+    width: 100%;
+    list-style: none;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#menuGauche li
+{
+	margin-bottom=10px;
+}
+
+
+#menuGauche ul li a
+{
+    padding: 2px 10px;  
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+
+#menuGauche ul li a:hover
+{
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+#tableAjout{
+padding: 55px 55px 5px 5px;
+}
+
+textarea{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+height:100px;
+width:175px;
+}
+
+input{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 12px;
+width:180px;
+}
+
+
+table { 
+color: #333;
+width: 72%;
+border-collapse: 
+collapse; border-spacing: 2; 
+}
+#submitTable{
+width:70px;
+}
+#submitenregistrer{
+width:70px;
+margin-top:10px;
+}
+
+td, th { 
+border: 1px solid transparente ;/* No more visible border */
+height: 1px; 
+transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {
+background: #DFDFDF;  /* Darken header a bit */
+font-weight: bold;
+}
+
+td {
+background: #FAFAFA;
+text-align: center;
+}
+
+/* Cells in even rows (2,4,6...) are one color */ 
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */ 
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+label
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#erreur
+{
+
+    font-size: 50px;
+    background: #FAFAFF;	
+    float: center;
+    
+     
+    word-wrap: break-word;
+}
+
+#leftCol {
+
+    font-size: 18px;
+    background: #FAFAFF;	
+    float: left;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    width: 200px;
+    word-wrap: break-word;
+}
+#titre
+{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+background: #DFDFDF;  /* Darken header a bit */
+font-weight: bold;
+ padding: 8px 5px 5px 8px;
+}
+
+.info, .success, .warning, .error, .validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('info.png');
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('success.png');
+}
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('warning.png');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('error.png');
+}
